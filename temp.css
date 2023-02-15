@@ -1,0 +1,43 @@
+body{
+
+    align-items:center;
+    justify-content: center;
+    background-color: #2efeff;
+    background-size: cover;
+    resize: initial;
+
+}
+
+.container{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font:size 15px;
+    padding: 10px;
+    margin: -25px 0 0 -25px;
+    width: 50%;
+    text-align: center;
+    height: 200;
+    position: absolute;
+    top: 30%;
+    right: 25%;
+
+
+}
+.convert_value{
+    display:flex;
+    justify-content:space-between;
+}
+.input{
+    display: flex;
+    align-items: center;
+    
+}
+select{
+    font-size: large;
+    border-radius: 15px;
+    padding: 5px;
+    background-color:white;
+}
+.result{
+display: flex;
+justify-content: space-evenly;
+}
